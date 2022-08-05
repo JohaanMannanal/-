@@ -1,0 +1,74 @@
+.container-5 {
+  border: 1px solid black;
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.flex-blackjack-row-1,
+.flex-blackjack-row-2,
+.flex-blackjack-row-3 {
+  display: flex;
+  border: 1px solid black;
+  padding: 10px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.flex-blackjack-row-1,
+.flex-blackjack-row-2,
+.flex-blackjack-row-3 {
+  background-image: url("https://th.bing.com/th/id/R.819173d6f4b5e89c2d71dd205295dd0b?rik=CiUJP%2bAI5En6oA&riu=http%3a%2f%2fcheerspokernh.com%2fwp-content%2fuploads%2f2018%2f02%2fbigstock-poker-table-background-26587844-2-1.jpg&ehk=quZBOTlL3DEOQEHozvhcagT9pzVtGofL%2f%2bZN5lEgLic%3d&risl=&pid=ImgRaw&r=0");
+  color: white;
+}
+.flex-blackjack-row-3 table {
+  background-color: white;
+  color: black;
+}
+
+.flex-blackjack-row-1 div {
+  border: 1px solid black;
+  padding: 10px;
+  flex: 1;
+  text-align: center;
+  height: 350px;
+}
+
+.flex-blackjack-row-1 img {
+  width: 25%;
+  padding: 10px;
+}
+
+.flex-blackjack-row-2 button {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+table,
+th,
+td {
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.flex-blackjack-row-2 div {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.flex-box-container-1 div {
+  display: flex;
+  padding: 10px;
+  border: 1px solid black;
+  align-items: center;
+}
+
+.flex-box-container-2 img {
+  margin: 20px 15px;
+  border-radius: 10px;
+  box-shadow: 0 10px 50px rgba(0, 0, 0, 0.5);
+}
+
+.flex-box-rps img:hover {
+  box-shadow: 0 10px 50px rgb(37, 50, 233);
+}
